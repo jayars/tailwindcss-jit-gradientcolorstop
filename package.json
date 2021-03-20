@@ -1,0 +1,21 @@
+{
+  "name": "jit-gradient-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build:css && npm run lite-server",
+    "build:css": "postcss build src/tailwind.css -o dist/tailwind.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/jit": "^0.1.4",
+    "autoprefixer": "^10.2.5",
+    "lite-server": "^2.6.1",
+    "postcss": "^8.2.8",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.4"
+  }
+}
